@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7c5d7">
+  <title>bwbwbw</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 9 8'%3E%3Cpath fill='%23c54b7e' d='M1 0h2v1h1v1h1V1h1V0h2v1h1v3H8v1H7v1H6v1H5v1H4V7H3V6H2V5H1V4H0V1h1z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./bwbwbw.css">
+  <script src="./bwbwbw-config.js" defer></script>
+  <script src="./bwbwbw.js" defer></script>
+</head>
+<body>
+  <svg class="symbols" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="pixel-bunny" viewBox="0 0 24 28">
+      <path fill="#cb8ba5" d="M5 1h5v8h3V0h5v9h2v2h2v8h-2v3h2v3h-2v2H3v-2H2v-3h2v-3H2v-8h2V9h1z"/>
+      <path fill="var(--bunny-coat,#fff5ee)" d="M6 2h3v9h5V1h3v10h3v2h1v5h-2v3h1v4h-3v1H6v-1H3v-2h2v-4H3v-6h2v-2h1zM21 20h2v3h-2z"/>
+      <path fill="#efabc3" d="M7 4h1v6H7zm8-1h1v7h-1zM4 17h3v2H4zm12 0h3v2h-3zM7 24h2v1H7zm7 0h2v1h-2z"/>
+      <path fill="#77445c" d="M7 14h2v2H7zm7 0h2v2h-2z"/>
+      <path fill="#d7789e" d="M10 17h3v1h-1v2h-1v-2h-1z"/>
+      <path fill="#e881aa" d="M16 8h2v1h2V8h2v3h-2v1h-2v-1h-2z"/>
+      <path fill="#ffe4ef" d="M18 9h2v2h-2z"/>
+    </symbol>
+    <symbol id="sad-bunny" viewBox="0 0 24 28">
+      <path fill="#cb8ba5" d="M5 1h5v8h3V0h5v9h2v2h2v8h-2v3h2v3h-2v2H3v-2H2v-3h2v-3H2v-8h2V9h1z"/>
+      <path fill="var(--bunny-coat,#fff5ee)" d="M6 2h3v9h5V1h3v10h3v2h1v5h-2v3h1v4h-3v1H6v-1H3v-2h2v-4H3v-6h2v-2h1zM21 20h2v3h-2z"/>
+      <path fill="#efabc3" d="M7 4h1v6H7zm8-1h1v7h-1zM4 17h3v2H4zm12 0h3v2h-3z"/>
+      <path fill="#77445c" d="M6 13h2v1h2v1H6zm8 1h2v-1h2v2h-4zm-4 6h3v1h-3z"/>
+      <path fill="#8cd5f4" d="M7 16h2v6H7zm8 0h2v6h-2z"/>
+      <path fill="#e881aa" d="M16 8h2v1h2V8h2v3h-2v1h-2v-1h-2z"/>
+    </symbol>
+    <symbol id="hug-bunny-left" viewBox="0 0 24 28">
+      <use href="#pixel-bunny"/>
+      <path fill="var(--bunny-coat,#fff5ee)" d="M6 13h11v4H6z"/>
+      <path fill="#77445c" d="M6 14h1v1h2v-1h1v2H6zm7 0h1v1h2v-1h1v2h-4z"/>
+      <path fill="#cb8ba5" d="M15 20h7v-2h5v2h-2v3h-2v1h-8z"/>
+      <path fill="var(--bunny-coat,#fff5ee)" d="M15 21h8v-2h3v1h-2v2h-9z"/>
+    </symbol>
+    <symbol id="hug-bunny-right" viewBox="0 0 24 28">
+      <use href="#pixel-bunny"/>
+      <path fill="var(--bunny-coat,#fff5ee)" d="M6 13h11v4H6z"/>
+      <path fill="#77445c" d="M6 14h1v1h2v-1h1v2H6zm7 0h1v1h2v-1h1v2h-4z"/>
+      <path fill="#cb8ba5" d="M9 22H2v-2h-5v2h2v3h2v1h8z"/>
+      <path fill="var(--bunny-coat,#fff5ee)" d="M9 23H1v-2h-3v1h2v2h9z"/>
+    </symbol>
+    <symbol id="heart" viewBox="0 0 9 8"><path d="M1 0h2v1h1v1h1V1h1V0h2v1h1v3H8v1H7v1H6v1H5v1H4V7H3V6H2V5H1V4H0V1h1z"/></symbol>
+    <symbol id="play" viewBox="0 0 16 16"><path d="M4 2h2v2h2v1h2v2h2v2h-2v2H8v1H6v2H4z"/></symbol>
+    <symbol id="icon-pause" viewBox="0 0 16 16"><path d="M3 2h4v12H3zm6 0h4v12H9z"/></symbol>
+    <symbol id="arrow" viewBox="0 0 16 16"><path d="M6 2h4v2h2v2h2v3h-4v5H6V9H2V6h2V4h2z"/></symbol>
+    <symbol id="retry" viewBox="0 0 16 16"><path d="M5 1h6v2h2v2h2v6h-2v2h-2v2H5v-2H3v-2H1V7h2v4h2v2h6v-2h2V5h-2V3H5v2h2v2H1V1h2v2h2z"/></symbol>
+    <symbol id="note" viewBox="0 0 16 16"><path d="M6 2h8v9h-2V5H8v7H6v2H2v-2H1v-2h1V9h4zm6 8h3v1h1v2h-1v1h-4v-1h-1v-2h2z"/></symbol>
+    <symbol id="mute" viewBox="0 0 16 16"><path d="M1 6h3V4h2V2h2v12H6v-2H4v-2H1zm9-2h2v2h2V4h2v2h-2v4h2v2h-2v-2h-2v2h-2v-2h2V6h-2z"/></symbol>
+    <symbol id="close" viewBox="0 0 16 16"><path d="M2 2h3v3h2v2h2V5h2V2h3v3h-3v2H9v2h2v2h3v3h-3v-3H9V9H7v2H5v3H2v-3h3V9h2V7H5V5H2z"/></symbol>
+  </defs></svg>
+  <div class="pink-world" aria-hidden="true"></div>
+  <div class="bunny-world" aria-hidden="true">
+    <div class="bunny bunny-one"><span></span><svg><use href="#pixel-bunny"/></svg></div>
+    <div class="bunny bunny-two"><span></span><svg><use href="#pixel-bunny"/></svg></div>
+    <div class="bunny bunny-three"><span></span><svg><use href="#pixel-bunny"/></svg></div>
+    <div class="bunny bunny-four"><span></span><svg><use href="#pixel-bunny"/></svg></div>
+    <div class="bunny bunny-five"><span></span><svg><use href="#pixel-bunny"/></svg></div>
+    <div class="bunny bunny-six"><span></span><svg><use href="#pixel-bunny"/></svg></div>
+  </div>
+  <main class="game">
+    <div class="board-frame">
+      <canvas id="board" width="288" height="288" role="img" aria-label="Kalpleri yiyen pixel yılan. Başlat düğmesine bas, yön tuşlarıyla veya kaydırarak oyna."></canvas>
+      <div class="start-screen" id="start-screen"><button class="pixel-button start-button" id="start" aria-label="Oyunu başlat"><svg><use href="#play"/></svg></button></div>
+      <button class="pixel-button pause-button" id="pause" aria-label="Oyunu duraklat" hidden><svg><use href="#icon-pause"/></svg></button>
+    </div>
+    <div class="controls">
+      <button class="pixel-button music-button" id="music" aria-label="Müziği kapat" aria-pressed="true"><svg><use href="#note"/></svg></button>
+      <div class="dpad" role="group" aria-label="Yılanı yönlendir">
+        <button class="pixel-button up" data-direction="up" aria-label="Yukarı"><svg><use href="#arrow"/></svg></button>
+        <button class="pixel-button left" data-direction="left" aria-label="Sola"><svg><use href="#arrow"/></svg></button>
+        <svg class="dpad-heart" aria-hidden="true"><use href="#heart"/></svg>
+        <button class="pixel-button right" data-direction="right" aria-label="Sağa"><svg><use href="#arrow"/></svg></button>
+        <button class="pixel-button down" data-direction="down" aria-label="Aşağı"><svg><use href="#arrow"/></svg></button>
+      </div>
+      <button class="pixel-button track-button" id="track" aria-label="Chirp şarkısına geç"><svg><use href="#retry"/></svg></button>
+    </div>
+  </main>
+  <div class="letter-layer" id="letter-layer" hidden>
+    <div class="letter-shade"></div>
+    <div class="water" id="water" aria-hidden="true"><div class="water-shine"></div><div class="water-bubbles"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+    <div class="response-effects" id="response-effects" aria-hidden="true"></div>
+    <div class="falling-letter" id="falling-letter">
+      <div class="envelope-back"></div>
+      <div class="letter-paper" role="dialog" aria-modal="true" aria-label="Mektup" tabindex="-1" id="letter-paper">
+        <div class="letter-bunnies" aria-hidden="true">
+          <svg class="couple-bunny"><use href="#pixel-bunny"/></svg>
+          <div class="couple-hearts"><svg><use href="#heart"/></svg><svg><use href="#heart"/></svg><svg><use href="#heart"/></svg></div>
+          <svg class="couple-bunny"><use href="#pixel-bunny"/></svg>
+        </div>
+        <div class="heart-trim" aria-hidden="true"><svg><use href="#heart"/></svg><svg><use href="#heart"/></svg><svg><use href="#heart"/></svg><svg><use href="#heart"/></svg><svg><use href="#heart"/></svg></div>
+        <h2 id="letter-heading"></h2>
+        <p id="letter-message"><span class="message-space" aria-hidden="true"></span><span id="letter-typed" aria-hidden="true"></span><span class="sr-only" id="letter-accessible"></span></p>
+        <div class="letter-choices"><button class="choice choice-pink" id="forgive"><svg aria-hidden="true"><use href="#heart"/></svg><span>tm afettim seni ck sebiyom</span></button><button class="choice choice-red" id="not-forgive"><svg aria-hidden="true"><use href="#heart"/></svg><span>olmaz affetmedim tm</span></button></div>
+        <div class="letter-actions"><button class="pixel-button" id="show-all" aria-label="Yazının tamamını göster"><svg><use href="#play"/></svg></button><button class="pixel-button" id="replay" aria-label="Yeniden oyna"><svg><use href="#retry"/></svg></button></div>
+      </div>
+      <div class="envelope-front"><svg aria-hidden="true"><use href="#heart"/></svg></div>
+      <div class="envelope-lid"></div>
+      <button id="open-envelope" class="open-envelope" aria-label="Mektubu aç" disabled></button>
+    </div>
+  </div>
+  <audio id="soundtrack" loop preload="none"></audio>
+</body>
+</html>
